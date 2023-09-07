@@ -4,8 +4,8 @@ import time
 
 
 def main():
-    yellow_control = ProtoControl(team_color_yellow=True, control_ip="127.0.0.1", control_port=20012)
-    blue_control = ProtoControl(team_color_yellow=False, control_ip="127.0.0.1", control_port=20013)
+    yellow_control = ProtoControl(team_color_yellow=True, control_ip="127.0.0.1", control_port=20011)
+    blue_control = ProtoControl(team_color_yellow=False, control_ip="127.0.0.1", control_port=20011)
 
     current_time = time.time()
 
